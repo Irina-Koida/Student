@@ -96,7 +96,7 @@ namespace Student
                 Console.Write(i + " ");
             }
             Console.WriteLine();
-            Console.WriteLine("Поставьте оценку (0-100) или несколько оценок, через запятую ',' и нажмите \"Enter\": ");
+            Console.WriteLine("Поставьте оценку (1-100) или несколько оценок, через запятую ',' и нажмите \"Enter\": ");
             string[] input = Console.ReadLine().Split(',');
             int[] Marks = new int[input.Length];
             for (int i = 0; i < input.Length; i++)
